@@ -102,3 +102,41 @@ main{
     width: 888px;
     margin: 16px auto 0;
 }
+
+/* cards section */
+
+.cards{
+    margin-top: 49px;
+    display: grid;
+    grid-template-columns: calc(25% - 15px) calc(25% - 15px) calc(25% - 15px) calc(25% - 15px);
+    gap: 20px;
+}
+
+.card{
+    text-align: center;
+}
+
+.card img{
+    width: 100%;
+}
+
+.flower-name{
+    font-size: 1.375rem;
+    font-weight: 600;
+    color: #111111;
+    margin-top: 30px;
+}
+
+.flower-price{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.card button{
+    background-color: #E95A08;
+    color: #FFFFFF;
+    padding: 19px 0;
+    width: 100%;
+    font-weight: 600;
+    border: none;
+}
