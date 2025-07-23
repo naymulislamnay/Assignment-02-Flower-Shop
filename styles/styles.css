@@ -27,6 +27,15 @@
     color: rgba(0, 0, 0, 0.5);
 }
 
+.all-description{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.375rem;
+}
+
+.theme-color{
+    color: #E95A08;
+}
+
 
 
 /* nav bar */
@@ -37,7 +46,6 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;
 }
 
 ul li a{
@@ -56,3 +64,18 @@ ul{
 }
 
 
+/* banner style */
+
+.banner{
+    max-width: 1140px;
+    margin: 120px auto 0;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    align-items: flex-end;
+}
+
+.banner-heading{
+    font-size: 4.0625rem;
+    font-weight: bold;
+}
