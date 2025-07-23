@@ -78,4 +78,27 @@ ul{
 .banner-heading{
     font-size: 4.0625rem;
     font-weight: bold;
+    margin-bottom: 13px;
+}
+
+/* our plant section style */
+
+
+main{
+    max-width: 1140px;
+    margin: 120px auto 0;
+}
+
+.our-plant{
+    text-align: center;
+}
+
+.plant-heading{
+    font-size: 3.125rem;
+    font-weight: bold;
+}
+
+.plant-des{
+    width: 888px;
+    margin: 16px auto 0;
 }
