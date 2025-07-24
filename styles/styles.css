@@ -81,6 +81,10 @@ nav{
     margin-bottom: 13px;
 }
 
+.banner img{
+    max-width: 100%;
+}
+
 /* our plant section style */
 
 
@@ -99,7 +103,7 @@ main{
 }
 
 .plant-des{
-    width: 888px;
+    max-width: 888px;
     margin: 16px auto 0;
 }
 
@@ -257,3 +261,102 @@ main{
     padding-bottom: 2px;
     border-bottom: 1px solid #FFFFFF;
 }
+
+
+/* footer banner start from here */
+
+.footer-banner{
+    max-width: 1440px;
+    margin: 120px auto 0;
+    position: relative;
+}
+
+.footer-banner img{
+    max-width: 100%;
+}
+
+.footer-banner-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 65%;
+}
+
+.subscribe-button button {
+    background-color: #E95A08;
+    color: #FFFFFF;
+    padding: 19px 53.5px;
+    font-weight: 600;
+    border: none;
+}
+
+
+.footer-banner-heading{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 3.125rem;
+    font-weight: bold;
+}
+
+.subscribe-button{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    margin-top: 23px;
+    /* width: 100%; */
+}
+
+.subscribe-button input{
+    border: none;
+    padding: 15.5px 20px;
+}
+
+.subscribe-button input::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* footer section */
+
+.main-footer{
+    max-width: 1120px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left-des{
+    margin-top: 16px;
+    max-width: 300px;
+}
+
+
+.main-footer-left-02 ul li,
+.main-footer-right-02 ul li{
+    list-style: none;
+}
+
+.main-footer-left-02 ul li a,
+.main-footer-right-02 ul li a{
+    text-decoration: none;
+    color: #6B7280;
+}
+
+.main-footer-left-02 ul,
+.main-footer-right-02 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.main-footer-right{
+    display: flex;
+    gap: 24px;
+}
+
+
+.main-footer-right img{
+    max-width: 36px;
+    max-height: 36px;
+}
+
