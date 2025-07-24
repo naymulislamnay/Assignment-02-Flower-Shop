@@ -87,7 +87,6 @@ nav{
 main{
     max-width: 1140px;
     margin: 120px auto 0;
-    border: 1px solid green;
 }
 
 .our-plant{
@@ -146,6 +145,7 @@ main{
 
 .flower-lover{
     margin-top: 210px;
+    margin-bottom: 133px;
     display: grid;
     grid-template-columns: calc(50% - 30px) calc(50% - 30px);
     gap: 60px;
@@ -175,3 +175,85 @@ main{
     gap: 20px;
 }
 
+/* Latest deals top section and our plant section css is same */
+
+.latest-de-head{
+    margin-top: 133px;
+}
+
+/* latest-deals-banner section */
+
+/* banner style */
+
+.deals-banner {
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: calc(33.333% - 14px) calc(66.667% - 14px);
+    gap: 28px;
+}
+
+.deals-banner-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.deals-banner img {
+    max-width: 100%;
+    display: block;
+    border-radius: 14px;
+    filter: brightness(0.6);
+    z-index: 1;
+}
+
+.deals-banner-right img {
+    border-radius: 22px;
+}
+
+
+.deals-banner-left-top,
+.deals-banner-left-bottom,
+.deals-banner-right {
+    position: relative;
+}
+
+.deals-banner-left-content,
+.deals-banner-right-content {
+    width: 100%;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.deal-banner-shop-now a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.bloom,
+.ana,
+.zabo {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.zabo {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.deals-banner-right-content span {
+    font-size: 1.75rem;
+}
+
+.deal-banner-shop-now span {
+    font-weight: 600;
+    /* text-decoration: underline; problem underline 2 vhag a vhag hoye jay p theke (solid lagbe) */
+    padding-bottom: 2px;
+    border-bottom: 1px solid #FFFFFF;
+}
